@@ -1,0 +1,110 @@
+html {
+  box-sizing: border-box; }
+
+body {
+  background-color: orange; }
+
+header {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/playa-atardecer.jpg?s=988888") no-repeat center 0;
+  background-size: cover; }
+
+.header {
+  margin: 0 auto; }
+  .header .header-cabecera {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 376px;
+    margin-right: 376px; }
+  .header .header-logo {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    color: #f1ebe7;
+    text-transform: uppercase;
+    margin-top: 48px; }
+  .header .header-list {
+    display: flex;
+    margin-top: 60px; }
+    .header .header-list .header-item {
+      margin-left: 67px; }
+      .header .header-list .header-item .header-link {
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase; }
+        .header .header-list .header-item .header-link:hover {
+          color: #e74c3c; }
+  .header .header-titletwo {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 200px; }
+  .header .header-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 72px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 54px; }
+  .header .header-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin: 100px auto;
+    width: 750px;
+    height: auto;
+    line-height: 1.7em; }
+  .header .header-button {
+    text-align: center; }
+  .header .header-two {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 27px 54px;
+    background-color: #e74c3c;
+    margin-right: 32px;
+    margin-bottom: 180px;
+    cursor: pointer; }
+    .header .header-two:hover {
+      background-color: #1a3263; }
+  .header .header-message {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none; }
+
+.photos {
+  background-color: #f4f5f9; }
+  .photos .photos-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #6a6a6a;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 124px; }
+  .photos .photos-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #6a6a6a;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px; }
+  .photos .photos-list {
+    text-align: center;
+    padding-top: 100px; }
+    .photos .photos-list .photos-item {
+      display: inline-block; }
+      .photos .photos-list .photos-item .photos-link {
+        font-family: "Roboto", sans-serif;
+        font-size: 24px;
+        color: #6a6a6a;
+        text-transform: uppercase;
+        text-decoration: none; }
+
+/*# sourceMappingURL=satori.css.map */
