@@ -19,24 +19,24 @@ header{
     .header-cabecera{
         display: flex;
         justify-content: space-between;
-        margin-left: 376px;
-        margin-right: 376px;
+        margin-left: 23.5rem;
+        margin-right: 23.5rem;
     }
     .header-logo{
         font-family: "Roboto", sans-serif;
-        font-size: 30px;
+        font-size: 1.875rem;
         color: #f1ebe7;
         text-transform: uppercase;
-        margin-top: 48px;
+        margin-top: 3rem;
     }
     .header-list{
         display: flex;
-        margin-top: 60px;
+        margin-top: 3.75rem;
         .header-item{
-            margin-left: 67px;
+            margin-left: 4.1875rem;
             .header-link{
                 font-family: "Roboto", sans-serif;
-                font-size: 14px;
+                font-size: 0.875rem;
                 color: #fff;
                 text-decoration: none;
                 text-transform: uppercase;
@@ -48,27 +48,27 @@ header{
     }
     .header-titletwo{
         font-family: "Roboto", sans-serif;
-        font-size: 24px;
+        font-size: 1.5rem;
         color: #fff;
         text-transform: uppercase;
         text-align: center;
-        margin-top: 200px;
+        margin-top: 12.5rem;
     }
     .header-title{
         font-family: "Roboto", sans-serif;
-        font-size: 72px;
+        font-size: 4.5rem;
         color: #fff;
         text-transform: uppercase;
         text-align: center;
-        margin-top: 54px;
+        margin-top: 3.375rem;
     }
     .header-text{
         font-family: "Roboto", sans-serif;
-        font-size: 14px;
+        font-size: 0.875rem;
         color: #fff;
         text-align: center;
-        margin: 100px auto;
-        width: 750px;
+        margin: 6.25rem auto;
+        width: 46.875rem;
         height: auto;
         line-height: 1.7em;
     }
@@ -77,11 +77,11 @@ header{
     }
     .header-two{
         display: inline-block;
-        border-radius: 10px;
-        padding: 27px 54px;
+        border-radius: 0.625rem;
+        padding: 1.6875rem 3.375rem;
         background-color: #e74c3c;
-        margin-right: 32px;
-        margin-bottom: 180px;
+        margin-right: 2rem;
+        margin-bottom: 11.25rem;
         cursor: pointer;
         &:hover{
             background-color: #1a3263;
@@ -89,7 +89,7 @@ header{
     }
     .header-message{
         font-family: "Roboto", sans-serif;
-        font-size: 14px;
+        font-size: 0.875rem;
         color: #fff;
         text-transform: uppercase;
         text-decoration: none;
@@ -102,35 +102,50 @@ header{
     background-color: #f4f5f9;
     .photos-title{
         font-family: "Roboto", sans-serif;
-        font-size: 36px;
+        font-size: 2.25rem;
         font-weight: bold;
         color: #6a6a6a;
         text-transform: uppercase;
         text-align: center;
-        padding-top: 124px;
+        padding-top: 7.75rem;
     }
     .photos-text{
         font-family: "Roboto", sans-serif;
-        font-size: 14px;
+        font-size: 0.875rem;
         color: #6a6a6a;
         text-transform: uppercase;
         text-align: center;
-        padding-top: 30px;
+        padding-top: 1.875rem;
     }
     .photos-list{
         text-align: center;
-        padding-top: 100px;
+        padding-top: 6.25rem;
+        padding-bottom: 3.125rem;
         .photos-item{
             display: inline-block;
                 .photos-link{
                 font-family: "Roboto", sans-serif;
-                font-size: 24px;
+                font-size: 1.5rem;
                 color: #6a6a6a;
                 text-transform: uppercase;
                 text-decoration: none;
                 }
         }
     }
-
+    .photos-fotos{
+       
+    }
+    .photos-list2{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap:wrap;
+    }
+    .photos-item2{
+        
+    }
+    .photos-image2{
+        max-width: 29rem;
+        max-height: 22.625rem;
+    }
 
 }
